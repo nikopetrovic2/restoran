@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  
+
+    
+    <title>Kod Matka</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <title>Vertikalni Navbar</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="m-0 p-0 font-sans">
+
+ 
+<nav class="bg-gray-200 p-4 flex items-center justify-center relative">
+  <!-- Lijevi meni -->
+  <ul class="flex space-x-6 text-black font-semibold absolute left-4">
+    <li><a href="index.html" class="hover:underline">Početna</a></li>
+    <li><a href="kontakt.html" class="hover:underline">Kontakt</a></li>
+   
+    <li><a href="o nama.html" class="hover:underline">O nama</a></li>
+  </ul>
+
+  <!-- Tekst u sredini -->
+  <div class="text-black font-bold text-xl">
+    Kod Matka
+  </div>
+</nav>
+<!-- Hero sekcija -->
+<section 
+  style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/hrana.jpg'); background-size: cover; background-position: center;" 
+  class="h-screen flex items-center justify-center"
+>
+    <h1 class="text-black text-[6rem] font-bold"> Dobrodošli u restoran Kod Matka</h1>
+  </section>
+<!-- Tekst podijeljen na 2 stupca -->
+<section class="max-w-6xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+  <div>
+    <h2 class="text-3xl font-bold mb-4">Naša priča</h2>
+    <p>Dobrodošli u restoran Kod Matka – mjesto gdje se tradicija i okus susreću. Već godinama nudimo autentična domaća jela pripremljena s ljubavlju i svježim sastojcima.</p>
+  </div>
+  <div>
+    <h2 class="text-3xl font-bold mb-4">Svježi sastojci</h2>
+    <p>Svakodnevno biramo najbolje lokalne namirnice kako bismo osigurali vrhunsku kvalitetu svakog jela koje izađe iz naše kuhinje.</p>
+  </div>
+</section>
+<section class="py-12 px-4">
+  <div class="flex justify-center">
+    <div 
+      class="overflow-x-auto snap-x snap-mandatory flex space-x-4 [&::-webkit-scrollbar]:hidden scrollbar-width-none w-100"
+    >
+      <!-- Slide 1 -->
+      <div id="slide1" class="snap-center flex-none w-full aspect-[4/3] rounded-xl shadow-lg overflow-hidden">
+        <img src="images/janjetina.jpeg" alt="Janjetina ispod peke"
+             class="w-full h-full object-cover">
+      </div>
+      <!-- Slide 2 -->
+      <div id="slide2" class="snap-center flex-none w-full aspect-[4/3] rounded-xl shadow-lg overflow-hidden">
+        <img src="images/riba.jpg" alt="Brancin na žaru"
+             class="w-full h-full object-cover">
+      </div>
+      <!-- Slide 3 -->
+      <div id="slide3" class="snap-center flex-none w-full aspect-[4/3] rounded-xl shadow-lg overflow-hidden">
+        <img src="images/pasticada.webp" alt="Pašticada"
+             class="w-full h-full object-cover">
+      </div>
+    </div>
+  </div>
+
+  <div class="flex justify-center space-x-2 mt-4">
+    <a href="#slide1" class="w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-500 transition"></a>
+    <a href="#slide2" class="w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-500 transition"></a>
+    <a href="#slide3" class="w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-500 transition"></a>
+  </div>
+</section>
+  
+<!-- Slajdovi / 3 stupca (ikona, podnaslov, tekst) -->
+<section class="max-w-6xl mx-auto px-6 py-12">
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
+    <div class="p-6 border rounded-lg shadow hover:shadow-lg transition">
+      <div class="mb-4 text-5xl text-indigo-600">🍝</div>
+      <h3 class="text-xl font-semibold mb-2">Dnevna ponuda</h3>
+      <p>Svaki dan nova jela u ponudi – od tradicionalnih juha do slasnih glavnih jela. Nešto za svakoga!</p>
+    </div>
+    <div class="p-6 border rounded-lg shadow hover:shadow-lg transition">
+      <div class="mb-4 text-5xl text-indigo-600">🍷</div>
+      <h3 class="text-xl font-semibold mb-2">Vrhunska vina</h3>
+      <p>Uživajte u selekciji najboljih domaćih i stranih vina koja savršeno prate naša jela.</p>
+    </div>
+    <div class="p-6 border rounded-lg shadow hover:shadow-lg transition">
+      <div class="mb-4 text-5xl text-indigo-600">👨‍🍳</div>
+      <h3 class="text-xl font-semibold mb-2">Stručni kuhari</h3>
+      <p>Naš tim kuhara donosi strast i iskustvo u svako jelo – jer svaki tanjur priča svoju priču.</p>
+    </div>
+  </div>
+</section>
+
+  <!-- Podnožje (footer) s 2 stupca linkova -->
+  <footer class="bg-gray-100 text-gray-700">
+    <div class="max-w-6xl mx-auto px-6 py-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div>
+        <h4 class="font-semibold mb-4">Brzi linkovi</h4>
+        <ul class="space-y-2">
+          <li><a href="index.html" class="hover:underline">Početna</a></li>
+          <li><a href="o nama.html" class="hover:underline">O nama</a></li>
+          <li><a href="kontakt.html" class="hover:underline">Kontakt</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-4">Pratite nas</h4>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:underline">Facebook</a></li>
+          <li><a href="#" class="hover:underline">Instagram</a></li>
+          <li><a href="#" class="hover:underline">Twitter</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-gray-300 mt-6 py-4 text-center text-sm text-gray-500">
+      &copy; 2025 Kod Matka. Sva prava pridržana.
+    </div>
+  </footer>
+
+
+  
+</body>
+</html>
